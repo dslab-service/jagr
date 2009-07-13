@@ -1,5 +1,8 @@
 # Installing and getting started with the JAGR environment.
 
+
+= IN PREPARATION ... !! =
+
 {{{
 #!/bin/tcsh
 
