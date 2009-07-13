@@ -53,8 +53,9 @@ cd $JAGR_TOP
 mv jagr-jboss/ jagr-jboss-srcdiff
 tar -zxvf $TOP/jboss-3.2.1-src-nocvs.tgz
 rm -f jboss-3.2.1-src-nocvs.tgz
-cp -r jagr-jboss-srcdiff/* jboss-3.2.1-src/
-rm -rf jagr-jboss-srcdiff
+cd jagr-jboss-srcdiff
+cp -r * jboss-3.2.1-src/
+rm -rf ../jagr-jboss-srcdiff
 cd $JBOSS_TOP
 build/build.sh
 rehash
