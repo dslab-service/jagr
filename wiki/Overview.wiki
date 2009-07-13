@@ -2,9 +2,23 @@
 
 = Introduction =
 
-Enterprise-scale software infrastructures fail embarassingly often and take a long time to recover. About 40% of the time, buggy application software is the culprit [Woo95,Gar02]; such failures cost the US economy $60 billion annually [NIST02]. The rate at which developers reduce the number of bugs per line of code (using improved tools, languages and training) is outpaced by the rate at which software grows. The overall number of bugs goes up, and bug-induced system failures continue being a certainty. Conceding that perfect software is just a myth, we focus on ways to recover fast when failures occur.
+Our research started from the observation that enterprise-scale software infrastructures fail embarassingly often and take a long time to recover. At the time, about 40% of failures turned out to be due to buggy application software; such failures cost the US economy $60 billion annually (according to NIST). The rate at which developers reduce the number of bugs per line of code (using improved tools, languages and training) was and still is outpaced by the rate at which software grows. The overall number of bugs goes up, and bug-induced system failures continue being a certainty. Conceding that perfect software is just a myth, we focused on ways to recover fast when failures occur.
 
-Microrecovery reduces the scope of recovery down to the fine grain of application components. Microreboot is an instance of microrecovery, in which we "reboot" at a fine grain and obtain improvements in availability of 1-2 orders of magnitude. Crash-only software is a design pattern for building microrebootable systems; it is centered around fine-grain componentization of systems and separation of application data from application logic. 
+Our main contributions in this space were _microreboot_ and _macroanalysis_. Microreboot reduces the scope of recovery down to the fine grain of application components; we "reboot" at this fine grain and obtain reduction in recovery time of 1-2 orders of magnitude. Macroanalysis is an application-generic framework for detecting and localizing application-level failures in component-based systems, without requiring a priori knowledge about the application.  Finally, we proposed the notion of _crash-only software_, a design pattern for building systems amenable to microrebooting and macroanalysis; it is centered around fine-grain componentization of systems and separation of application data from application logic. 
+
+= Original Team =
+
+ * Prof. [http://people.epfl.ch/george.candea George Candea] (EPFL)
+ * Prof. [http://www.eecs.berkeley.edu/~fox/ Armando Fox] (UC Berkeley)
+ * Dr. [http://research.microsoft.com/en-us/people/emrek Emre Kiciman] (Microsoft Research)
+
+==== Other Contributors ====
+
+ * Mauricio Delgado
+ * Greg Friedman
+ * Yuichi Fujiki (NEC)
+ * Shinichi Kawamoto (Hitachi)
+ * Pedram Keyani
 
 = Key Papers =
 
