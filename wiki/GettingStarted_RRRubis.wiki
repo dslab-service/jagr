@@ -12,6 +12,7 @@ These instructions were verified to work on the following platform:
 
 = Installation Steps =
 
+{{{
 # Everything will be downloaded and installed in a directory; we'll refer to it as $TOP.
 # First, set your environment up; for example:
 
@@ -75,6 +76,7 @@ ant rubis_ear
 #
 # Now you can use the application by pointing your browser at
 #   http://localhost:8080/ejb_rubis_web
+}}}
               
 = Running the Client =
 
