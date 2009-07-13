@@ -1,4 +1,4 @@
-#summary Overview of the research that has led to this project.
+#summary Overview of the research that has led to this project
 
 = Introduction =
 
