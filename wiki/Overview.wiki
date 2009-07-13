@@ -36,7 +36,7 @@ Our main contributions in this space were _microreboot_ and _macroanalysis_. Mic
 = Resources =
 
     * Getting started with JAGR ([GettingStarted_JAGR HTML])
-    * Getting started with RR-JBoss ([GettingStarted_RR-JBoss HTML])
+    * Getting started with RR-JBoss ([GettingStarted_RRJBoss HTML])
     * Getting started with RR-RUBiS ([GettingStarted_RR-Rubis HTML])
     * Getting started with RR-SSM ([GettingStarted_RR-SSM HTML])
     * Guide to installing RUBiS 1.4.1 on JBoss 3.2.1 ([Installing_Rubis_on_JBoss HTML])
