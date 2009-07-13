@@ -6,6 +6,24 @@ Enterprise-scale software infrastructures fail embarassingly often and take a lo
 
 Microrecovery reduces the scope of recovery down to the fine grain of application components. Microreboot is an instance of microrecovery, in which we "reboot" at a fine grain and obtain improvements in availability of 1-2 orders of magnitude. Crash-only software is a design pattern for building microrebootable systems; it is centered around fine-grain componentization of systems and separation of application data from application logic. 
 
+= Popular Press Articles =
+
+(take with a big grain of salt)
+
+    * [http://www.cio-today.com/story.xhtml?story_id=28655 CIO Today]
+    * Sci-Tech Today and NewsFactor
+    * Computerworld (November 2004)
+    * Der Spiegel (July 2004)
+    * Salon.com (July 2004)
+    * EE Times (July 8, 2004)
+    * Stanford Daily (Nov 25, 2003)
+      Brief interview re. Scientific American 50
+    * Scientific American (Nov. 10, 2003)
+    * Scientific American 50 Award for Prof. Fox and our research project Scientific American (May 12, 2003) [PDF]
+    * Front page story on ROC, applying recursive microreboots to Mercury, and other ROC projects Scientific American (May 6, 2002)
+      Autonomic computing and ROC, recursive restartability in the Mercury ground station, etc.
+
+
 = Resources =
 
     * Getting started with JAGR ([GettingStarted_JAGR HTML])
