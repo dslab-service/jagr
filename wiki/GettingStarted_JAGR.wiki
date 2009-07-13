@@ -1,4 +1,4 @@
-# Installing and getting started with the JAGR environment.
+#summary Installing and getting started with the JAGR environment.
 
 
 = IN PREPARATION ... !! =
