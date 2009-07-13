@@ -6,22 +6,17 @@ Enterprise-scale software infrastructures fail embarassingly often and take a lo
 
 Microrecovery reduces the scope of recovery down to the fine grain of application components. Microreboot is an instance of microrecovery, in which we "reboot" at a fine grain and obtain improvements in availability of 1-2 orders of magnitude. Crash-only software is a design pattern for building microrebootable systems; it is centered around fine-grain componentization of systems and separation of application data from application logic. 
 
-= Popular Press Articles =
+= Key Papers =
 
-(take with a big grain of salt)
-
-    * [http://www.cio-today.com/story.xhtml?story_id=28655 CIO Today]
-    * Sci-Tech Today and NewsFactor
-    * Computerworld (November 2004)
-    * Der Spiegel (July 2004)
-    * Salon.com (July 2004)
-    * EE Times (July 8, 2004)
-    * Stanford Daily (Nov 25, 2003)
-      Brief interview re. Scientific American 50
-    * Scientific American (Nov. 10, 2003)
-    * Scientific American 50 Award for Prof. Fox and our research project Scientific American (May 12, 2003) [PDF]
-    * Front page story on ROC, applying recursive microreboots to Mercury, and other ROC projects Scientific American (May 6, 2002)
-      Autonomic computing and ROC, recursive restartability in the Mercury ground station, etc.
+ * [http://infoscience.epfl.ch/record/98376 Autonomous Recovery in Componentized Internet Applications]. George Candea, Emre Kıcıman, Shinichi Kawamoto, and Armando Fox.  _Cluster Computing Journal_, vol. 9, no. 1, February 2006
+ * [http://infoscience.epfl.ch/getfile.py?recid=97213&mode=best Microreboot - A Technique for Cheap Recovery]. George Candea, Shinichi Kawamoto, Yuichi Fujiki, Greg Friedman, and Armando Fox. _6th Symposium on Operating Systems Design and Implementation (OSDI)_, December 2004
+ * [http://research.microsoft.com/apps/pubs/default.aspx?id=75092 Detecting Application-Level Failures in Component-based Internet Services]. Emre Kıcıman and Armando Fox. _IEEE Transactions on Neural Networks_, Special Issue on Adaptive Learning Systems in Communication Networks, September 2005
+ * [http://research.microsoft.com/apps/pubs/default.aspx?id=74738 Path-Based Failure and Evolution Management]. Mike Y. Chen, Anthony Accardi, Emre Kıcıman, Jim Lloyd, Dave Patterson, Armando Fox, and Eric Brewer. _USENIX/ACM Symposium on Networked Systems Design and Implementation (NSDI)_, March 2004
+ * [http://research.microsoft.com/apps/pubs/default.aspx?id=74713 Session State: Beyond Soft State]. Benjamin C. Ling, Emre Kıcıman, and Armando Fox. _USENIX/ACM Symposium on Networked Systems Design and Implementation (NSDI)_, March 2004
+ * [http://infoscience.epfl.ch/record/98456 Recursive Restartability: Turning the Reboot Sledgehammer into a Scalpel]. George Candea and Armando Fox. Workshop on Hot Topics in Operating Systems (HotOS), May 2001. 
+ * [http://infoscience.epfl.ch/record/98461 Crash-Only Software]. George Candea and Armando Fox. _Workshop on Hot Topics in Operating Systems (HotOS)_, May 2003.
+ * [http://infoscience.epfl.ch/record/98460 Automatic Failure-Path Inference: A Generic Introspection Technique for Internet Applications]. George Candea, Mauricio Delgado, Michael Chen, Armando Fox. _IEEE Workshop on Internet Applications (WIAPP)_, June 2003.
+ * [http://infoscience.epfl.ch/record/98463 Recovery Oriented Computing: Building Multi-Tier Dependability]. George Candea, Aaron Brown, Armando Fox, and David Patterson. _IEEE Computer_, Vol. 37, No. 11, November 2004
 
 
 = Resources =
