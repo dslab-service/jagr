@@ -1,4 +1,4 @@
-#summary Installing and getting started with RR-JBoss.
+#summary Installing and getting started with RR-JBoss
 
 = Introduction =
 
