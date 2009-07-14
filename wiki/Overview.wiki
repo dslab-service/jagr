@@ -11,6 +11,7 @@ Our main contributions in this space were _microreboot_ and _macroanalysis_. Mic
  * Prof. [http://people.epfl.ch/george.candea George Candea] (EPFL)
  * Prof. [http://www.eecs.berkeley.edu/~fox/ Armando Fox] (UC Berkeley)
  * Dr. [http://research.microsoft.com/en-us/people/emrek Emre Kiciman] (Microsoft Research)
+ * Dr. [http://www.linkedin.com/pub/benjamin-ling/1/405/43a Ben Ling] (Google)
 
 ==== Other Contributors ====
 
